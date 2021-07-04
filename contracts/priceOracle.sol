@@ -30,6 +30,8 @@ contract PriceOracle {
             uint timeStamp,
             uint80 answeredInRound
         ) = priceFeed.latestRoundData();
+
+        //Return ETH/USD Price
         return price;
     }
 }
